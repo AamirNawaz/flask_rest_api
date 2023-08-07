@@ -1,40 +1,30 @@
-# python creating Virtual enviroment for projects*****
+#Fllow the steps to start the application
 
-Create an environment
-Create a project folder and a .venv folder within:
+#Step1:
+install python in your machine
 
-step1:
- > mkdir projectName_of_your_choice
- > cd projectName_of_your_choice
- > py -3 -m venv .venv
+#step2: (optional)
+create Virtual enviroment
+    
+    #command:
+ #       py -3 -m venv .venv
 
+ Activate the Virtual enviroment:
 
-Activate the environment
-Before you work on your project, activate the corresponding environme
-
- step2:
- > .venv\Scripts\activate
-
-
-Install Flask
-Within the activated environment, use the following command to install Flask:
-
-# $ pip install Flask
-
-Flask is now installed.
+#     > .venv\Scripts\activate
 
 
 
+#step3:
+pip install flask
 
-####################### Auto restart flask server for debugging mode ##########
-command:
+#step4:
+    head over to your project Directory and run the command
+     #   > flask --app app.py run
 
-(.venv) .......\myflask_api>flask --app main.py --debug run
+    if you need the debug to active just pass the debug flag
+    #    > flask --app app.py --debug run
 
 
 
 
-########################### 
-to generate requirments.txt file run the following in terminal
-
-(.venv) PS E:\Office Directory\myfask_api> pip freeze > requirements.txt
