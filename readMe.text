@@ -1,29 +1,29 @@
- ** Fllow the steps to start the application  ** 
+ **Fllow the steps to start the application** 
 
- ** Step1:  ** 
-install python in your machine
+ **Step1:** 
+##install python in your machine##
 
- ** step2: (optional) ** 
-create Virtual enviroment
+ **step2: (optional)** 
+**create Virtual enviroment**
     
-    #command:
- **       py -3 -m venv .venv **
+    ##command
+        **py -3 -m venv .venv**
 
  Activate the Virtual enviroment:
 
- **      > .venv\Scripts\activate  ** 
+    **> .venv\Scripts\activate** 
 
 
 
- ** step3: ** 
-pip install flask
+ **step3: 
+  __pip install flask**
 
- ** step4:  ** 
+ **step4:** 
     head over to your project Directory and run the command
-      **    > flask --app app.py run  ** 
+      **> flask --app app.py run  ** 
 
     if you need the debug to active just pass the debug flag
-     **     > flask --app app.py --debug run  ** 
+     **> flask --app app.py --debug run  ** 
 
 
 
