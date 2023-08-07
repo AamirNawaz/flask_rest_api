@@ -1,7 +1,7 @@
 **Fllow the steps to start the application**
 
- **Step1:** 
-##install python in your machine##
+ **Step1:
+   __install python in your machine**
 
  **step2: (optional)** 
 **create Virtual enviroment**
