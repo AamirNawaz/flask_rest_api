@@ -1,4 +1,4 @@
-**Fllow the steps to start the application**
+**Fllow the steps to start the application -2023**
 
  **Step1:
    install python in your machine**
@@ -12,7 +12,7 @@
 
 **Activate the Virtual enviroment:**
 
-    > .venv\Scripts\activate** 
+    > .venv\Scripts\activate 
 
 
 
